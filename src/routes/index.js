@@ -10,7 +10,7 @@ router.post("/emails/contact", (req, res) => {
   const { name, email, phone, message } = req.body;
 
   sendEmail({
-    to: `alan.dario.solis@gmail.com`,
+    to: `alan.solis.dev@gmail.com`,
     subject: "Portfolio Email",
     text: `Name: ${name}
 Email: ${email}
